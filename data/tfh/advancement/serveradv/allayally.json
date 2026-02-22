@@ -27,7 +27,7 @@
                     "stat": "pillager",
                     "value": {
                       "min": 1000,
-                      "max": 1005
+                      "max": 1000000
                     }
                   }
                 ]
