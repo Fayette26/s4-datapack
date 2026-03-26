@@ -1,23 +1,33 @@
 {
   "attributes": {
-    "minecraft:visual/sky_color": 5713759,
+    "minecraft:visual/sky_color": 5784660,
     "minecraft:visual/ambient_particles": [
       {
         "particle": {
-          "type": "minecraft:soul"
+          "type": "dragon_breath",
+          "power": 0.1
         },
-        "probability": 0.08
+        "probability": 0.002
       }
     ],
-    "minecraft:visual/fog_color": 7685503,
+    "minecraft:visual/fog_color": 6835307,
     "minecraft:visual/cloud_color": 15658992,
     "minecraft:visual/fog_start_distance": -30,
-    "minecraft:visual/sky_fog_end_distance": 60,
-    "minecraft:visual/water_fog_color": 6719628
+    "minecraft:visual/sky_fog_end_distance": 20,
+    "minecraft:visual/water_fog_color": 6719628,
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "minecraft:music.dragon",
+        "min_delay": 0,
+        "max_delay": 1000,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/sun_angle": 100
   },
-  "temperature": 0,
+  "temperature": 1,
   "downfall": 0.5,
-  "has_precipitation": true,
+  "has_precipitation": false,
   "temperature_modifier": "none",
   "creature_spawn_probability": 0,
   "effects": {
