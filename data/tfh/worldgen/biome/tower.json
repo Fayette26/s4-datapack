@@ -1,0 +1,33 @@
+{
+  "attributes": {
+    "minecraft:visual/sky_color": 5713759,
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:soul"
+        },
+        "probability": 0.08
+      }
+    ],
+    "minecraft:visual/fog_color": 7685503,
+    "minecraft:visual/cloud_color": 15658992,
+    "minecraft:visual/fog_start_distance": -30,
+    "minecraft:visual/sky_fog_end_distance": 60,
+    "minecraft:visual/water_fog_color": 6719628
+  },
+  "temperature": 0,
+  "downfall": 0.5,
+  "has_precipitation": true,
+  "temperature_modifier": "none",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "water_color": 4875110,
+    "grass_color": 9081729,
+    "foliage_color": 4344146,
+    "dry_foliage_color": 1580320
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}
