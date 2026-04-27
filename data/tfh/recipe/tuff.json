@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        [
+            "cobblestone"
+        ],
+        [
+            "cobbled_deepslate"
+        ]
+    ],
+    "result": {
+        "id": "minecraft:tuff",
+        "count": 2
+    }
+}
