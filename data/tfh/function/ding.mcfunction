@@ -25,7 +25,7 @@ execute if score message dingtimer matches 14 run tellraw @a[tag=!muteding] ["",
 execute if score message dingtimer matches 15 run tellraw @a[tag=!muteding] ["",{color:"white",text:"日 "},{color:"#f5e6a5",text:"If you gain the "},{color:"#f5a47e",bold:true,text:"Active Member"},{color:"#f5e6a5",text:" advancement, type "},{color:"#f5a47e",bold:true,text:"/ticket"},{color:"#f5e6a5",text:" in-game to request "},{color:"#f5a47e",bold:true,text:"Insider Access!"}]
 execute if score message dingtimer matches 16 run tellraw @a[tag=!muteding] ["",{color:"white",text:"日 "},{color:"#f5e6a5",text:"Yuri is better than Yaoi"}]
 execute if score message dingtimer matches 17 run tellraw @a[tag=!muteding] ["",{color:"white",text:"日 "},{color:"#a205ca",text:"The spring event is now live! Check it out at Southside Circuit!"}]
-execute if score message dingtimer matches 17 give @a paper[custom_model_data={floats:[25]},item_name={"bold":true,"color":"yellow","text":"Flower Token"},lore=[{"color":"dark_purple","text":"Can be traded for cosmetics at the Flower Festival"}]] 2
+#execute if score message dingtimer matches 17 give @a paper[custom_model_data={floats:[25]},item_name={"bold":true,"color":"yellow","text":"Flower Token"},lore=[{"color":"dark_purple","text":"Can be traded for cosmetics at the Flower Festival"}]] 2
 
 #repeat
 schedule function tfh:ding 6000t
