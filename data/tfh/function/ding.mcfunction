@@ -1,7 +1,7 @@
 # run dingstart first! Change whatever you need to within the messages
 
 #Changes message number
-execute if score message dingtimer matches 17.. run scoreboard players reset message dingtimer
+execute if score message dingtimer matches 18.. run scoreboard players reset message dingtimer
 scoreboard players add message dingtimer 1
 
 #Plays ding sound
@@ -26,6 +26,6 @@ execute if score message dingtimer matches 15 run tellraw @a[tag=!muteding] ["",
 execute if score message dingtimer matches 16 run tellraw @a[tag=!muteding] ["",{color:"white",text:"日 "},{color:"#f5e6a5",text:"Yuri is better than Yaoi"}]
 execute if score message dingtimer matches 17 run tellraw @a[tag=!muteding] ["",{color:"white",text:"日 "},{color:"#a205ca",text:"The spring event is now live! Check it out at Southside Circuit!"}]
 #execute if score message dingtimer matches 17 minecraft:give @a paper[custom_model_data={floats:[25]},item_name={"bold":true,"color":"yellow","text":"Flower Token"},lore=[{"color":"dark_purple","text":"Can be traded for cosmetics at the Flower Festival"}]] 2
-
+execute if score message dingtimer matches 18 run tellraw @a[tag=!muteding] ["",{color:"white",text:"日 "},{color:"#f5e6a5",text:"The end opens TODAY! Join us at Port Tsuri at 12 EST for the fight!"}]
 #repeat
 schedule function tfh:ding 6000t
